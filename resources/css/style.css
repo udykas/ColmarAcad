@@ -1,7 +1,21 @@
+/*Universal Styles*/
+
+html{
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+/*Header Begins*/
+
 header {
+  position: fixed;
+  background-color: white;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 4rem;
+  z-index: 5;
 }
 
 .logo{
@@ -9,16 +23,71 @@ header {
   align-items: center;
 }
 
+.logo img{
+  height: 2.5rem;
+  width: auto;
+  margin-left: 1.5rem;
+}
+
+.logo.text{
+  font-size: 1.5rem;
+  color: #4d4d4d;
+  font-weight: bold;
+}
+
+.logo.text.two{
+  color: #b3b3b3;
+  font-weight: normal;
+}
+
 nav{
-  margin-right: 8px;
+  margin-right: 0.5rem;
 }
 
 nav li{
   display: inline;
-  margin-right: 16px;
+  margin-right: 1rem;
 }
 
 nav a {
   text-decoration: none;
-  color: black;
+  color: #404040;
+}
+
+/*Main Banner Begins*/
+
+.banner{
+  display: flex;
+  padding-top: 4rem;
+  background-color: #ccc;
+}
+
+.banner img{
+  width: 80%;
+  height: auto;
+  margin: 2rem 1.5rem;
+}
+
+.banner-image{
+  width: 10%;
+}
+
+.banner-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #4d4d4d;
+  width: 60%;
+}
+
+.banner-text h1{
+  font-family: 'Helvetica';
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+.banner-text h3{
+  font-size: 1.5rem;
+  font-weight: bold;
 }
