@@ -106,6 +106,7 @@ nav a {
 
 .info-container{
   display: flex;
+  background-color: #f2f2f2;
 }
 
 .article{
@@ -117,14 +118,72 @@ nav a {
 
 .article img{
   width: 100%;
-  margin-top: 2rem;
+  margin: 2rem 0;
 }
 
 .article-text{
-  color: #333;
+  color: #404040;
 }
 
 .article-text h1{
   font-size: 2rem;
   font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.article-text p{
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.article-text h6{
+  font-size: 0.65rem;
+  font-weight: bold;
+}
+
+
+
+
+.school-info{
+  width: 40%;
+}
+
+.info-sub{
+  display: flex;
+  margin: 2rem 0;
+}
+
+.info-sub-img{
+  width: 35%;
+  height: auto;
+}
+
+.info-sub-img img{
+  width: 100%;
+  height: auto;
+}
+
+.info-sub-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 65%;
+  padding: 0 1rem;
+  color: #4d4d4d;
+}
+
+.info-sub-text h2{
+  font-size: 1.5rem;
+
+  font-weight: bold;
+}
+
+.info-sub-text h4{
+  padding: 0.75rem 0;
+}
+
+.info-sub-text a{
+  text-decoration: none;
+  color: #09f;
 }
