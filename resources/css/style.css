@@ -101,3 +101,30 @@ nav a {
   padding: 0.8rem 0;
   width: 15rem;
 }
+
+/*Information Section begins*/
+
+.info-container{
+  display: flex;
+}
+
+.article{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 1.5rem 2rem 1.5rem;
+}
+
+.article img{
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.article-text{
+  color: #333;
+}
+
+.article-text h1{
+  font-size: 2rem;
+  font-weight: bold;
+}
