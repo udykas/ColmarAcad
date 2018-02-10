@@ -150,7 +150,8 @@ nav a {
 
 .info-sub{
   display: flex;
-  margin: 2rem 0;
+  padding: 1rem 1rem;
+  border: 0.5px solid #ccc;
 }
 
 .info-sub-img{
@@ -186,4 +187,8 @@ nav a {
 .info-sub-text a{
   text-decoration: none;
   color: #09f;
+}
+
+.info-sub.lecture {
+  background-color: #ccc;
 }
