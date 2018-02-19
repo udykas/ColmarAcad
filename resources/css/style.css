@@ -163,11 +163,32 @@ nav a {
 @media only screen and (max-width: 650px){
   .banner{
     flex-direction: column;
-    align-items: center;
+  }
+
+  .banner img{
+    width: 100%;
+    margin: 0 0;
   }
 
   .banner-text {
     padding-bottom: 0.75rem;
+    margin:0 0;
+    width: 100%;
+  }
+
+  .banner-text h1{
+    font-size: 2.5rem;
+    margin: 1.5rem 1rem;
+  }
+
+  .banner-text h3{
+    font-size: 1.5rem;
+    margin: 0.75rem 1rem;
+  }
+
+  .banner-text button{
+    width: 18rem;
+    margin: 1rem 1rem;
   }
 }
 
@@ -359,6 +380,7 @@ nav a {
   .mobile-courses{
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .mobile-courses button{
@@ -369,7 +391,7 @@ nav a {
     border: none;
     margin-top: 0.5rem;
     padding: 0.8rem 0;
-    width: 100%;
+    width: 95%;
   }
 }
 
@@ -464,6 +486,22 @@ nav a {
   color: #666;
 }
 
+
+@media only screen and (max-width:700px){
+  .thesis-subs{
+    display: none;
+  }
+
+  .thesis-video{
+    width: 100%;
+    padding: 0;
+  }
+
+  .thesis-video-text{
+    display: none;
+  }
+}
+
 /*Footer Begins*/
 
 footer{
@@ -478,4 +516,10 @@ footer a{
   color: #666;
   text-decoration: none;
   padding: 0 0.5rem;
+}
+
+@media only screen and (max-width: 525px){
+  .footer-links{
+    display: none;
+  }
 }
